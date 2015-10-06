@@ -10,7 +10,6 @@
 #import "Product.h"
 
 @interface EditDescriptionProductViewController ()
-
 @property (weak, nonatomic) IBOutlet UITextField *descriptionField;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @end
@@ -24,7 +23,6 @@
 
 - (IBAction)continueTapped:(id)sender {
     self.product.productDescription = self.descriptionField.text;
-
 }
 
 

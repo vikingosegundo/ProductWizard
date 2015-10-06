@@ -47,7 +47,7 @@
                                 </constraints>
                                 <state key="normal" title="continue"/>
                                 <connections>
-                                    <action selector="continue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vcy-qc-Tk8"/>
+                                    <action selector="continueTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ySw-PF-bKP"/>
                                     <segue destination="FnD-Mj-Ep9" kind="show" id="1jU-KO-Uas"/>
                                 </connections>
                             </button>

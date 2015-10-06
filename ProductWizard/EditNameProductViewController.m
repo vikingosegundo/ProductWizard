@@ -10,7 +10,6 @@
 #import "Product.h"
 
 @interface EditNameProductViewController ()
-
 @property (weak, nonatomic) IBOutlet UITextField *nameField;
 @end
 
@@ -21,9 +20,8 @@
     self.product = [[Product alloc] init];
 }
 
-- (IBAction)continue:(id)sender {
+- (IBAction)continueTapped:(id)sender {
     self.product.productName = self.nameField.text;
-    
 }
 
 @end

@@ -11,7 +11,6 @@
 
 @interface EditPriceProductViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
-
 @property (weak, nonatomic) IBOutlet UITextField *priceField;
 @property (weak, nonatomic) IBOutlet UILabel *descriptionLabel;
 @end
